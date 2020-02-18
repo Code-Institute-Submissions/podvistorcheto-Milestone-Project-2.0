@@ -1,3 +1,8 @@
+body {
+    background-color: #c1ccd8;
+    
+}
+
 .carousel-item {
     height: 100vh;
     min-height: 300px;
@@ -95,4 +100,69 @@ section{
     background-color: #dae0e5;
 }
 
-div#map {min-height: 360px;}
+div#map {min-height: 480px;}
+
+
+/* signup form styling */
+
+.logo {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 760px;
+
+    transition: all .5s ease-in-out;
+    -moz-transition: all, 0.5s, ease-in-out;
+    -webkit-transition: all,0.5s, ease-in-out;
+}
+
+.bg-color-contact {
+    background-color: #d9e3da;
+    box-sizing: border-box;
+    border-radius: none;
+    box-shadow: 0 20px 50px rgba(0,0,0,.1);
+    padding-bottom: 14em;
+}
+
+.contact-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    margin-top: 5em;
+    margin-bottom: 2em;
+}
+
+.center-form {
+    padding-top:10px;
+    margin: 0 auto;
+    max-width: 75%;
+    background-color:#b3d7ff;
+}
+
+.form-control{
+    margin-top: 2px;
+    
+}   
+
+.input {
+    padding-top: 1em;
+}
+
+
+button[type="submit"] {
+    margin-top: 1.5em;
+    margin-bottom: 14em;
+    width: 50%;
+    color: #fafafa;
+    background-color: #E8767B;
+}
+
+/*--- modal form --*/
+
+.modal-body {
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+.icon-size a {
+     font-size:36px;
+ }
