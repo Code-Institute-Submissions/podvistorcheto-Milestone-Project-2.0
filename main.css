@@ -204,6 +204,18 @@ footer {
 }
 /*--- media gallery columns --*/ 
 
+
+#photos {
+    column-count: 4;
+    padding-top: 2rem;
+    line-height: 0;
+}
+
+#photos img{
+    width: 100%;
+}
+
+
 @media screen and (max-width:943px){
     #photos{
         column-count: 3;
