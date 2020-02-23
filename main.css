@@ -90,6 +90,8 @@ p {
     .navbar-nav.ml-auto {
         background: rgba(49, 48, 48, 0.7);
     }
+
+@media 
 .navbar-toggler{
     background:#fff;
     font-size: 18px;
