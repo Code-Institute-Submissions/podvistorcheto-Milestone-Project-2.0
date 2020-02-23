@@ -101,6 +101,13 @@ p {
 }
 }
 
+
+/* navbar style for the gallery page */
+
+#gallery-nav {
+    background-color: rgb(17, 16, 16);
+}
+
 /* opacity of the headline text */
 
 .style-text {
@@ -200,3 +207,16 @@ button[type="submit"] {
 .icon-size a {
      font-size:36px;
  }
+
+
+/*--- gallery columns --*/ 
+
+#photos {
+    clear: both;
+    column-count: 4;
+    column-gap: 0px;
+}
+
+#photos img{
+    width: 100%;
+}
