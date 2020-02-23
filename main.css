@@ -101,6 +101,11 @@ p {
 }
 }
 
+@media (max-width:376px) {
+    h5 {
+        display: none;
+    }
+}
 
 /* styles Google maps page */
 
