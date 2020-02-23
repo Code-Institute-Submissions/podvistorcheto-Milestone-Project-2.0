@@ -209,6 +209,7 @@ footer {
     column-count: 4;
     padding-top: 2rem;
     line-height: 0;
+    column-gap: 0px;
 }
 
 #photos img{
