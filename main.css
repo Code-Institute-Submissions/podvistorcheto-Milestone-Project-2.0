@@ -87,7 +87,7 @@ p {
     height: 100vh;
 }
 
-/* navbar for mobiles */
+/* navbar for mobile screen */
 
 @media  only screen and (max-width: 987px) {
     .navbar-nav.ml-auto {
@@ -100,6 +100,17 @@ p {
     padding: 1px 5px;
 }
 }
+
+/* opacity of the headline text */
+
+.style-text {
+    background-color:rgba(161, 194, 207, 0.2);
+    border-radius: 25px;
+}
+
+
+
+/* media for less text to appear on small devices */
 
 @media (max-width:376px) {
     h5 {
@@ -115,6 +126,8 @@ p {
   margin-bottom: 0.1rem;
 
 }
+
+
 
 section{
     background-color: #dae0e5;
