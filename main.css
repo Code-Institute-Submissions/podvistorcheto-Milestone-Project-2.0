@@ -23,6 +23,7 @@ body {
     letter-spacing: 2px;
     margin-top: 25px;
     font-family: "Raleway", sans-serif;
+    border-radius: 10px;
 }
 
 .carousel-caption p{
@@ -31,6 +32,8 @@ body {
     font-size: 18px;
     line-height: 1.9;
     font-family: "Releway", sans-serif;
+    letter-spacing: 3px;
+    border-radius: 10px;
 }
 
 .minibox {
@@ -90,8 +93,6 @@ p {
     .navbar-nav.ml-auto {
         background: rgba(49, 48, 48, 0.7);
     }
-
-@media 
 .navbar-toggler{
     background:#fff;
     font-size: 18px;
@@ -99,6 +100,7 @@ p {
     padding: 1px 5px;
 }
 }
+
 
 /* styles Google maps page */
 
