@@ -15,6 +15,8 @@ body {
     bottom: 220px;
 }
 
+
+
 .carousel-caption h5{
     font-size: 45px;
     text-transform: uppercase;
@@ -31,16 +33,23 @@ body {
     font-family: "Releway", sans-serif;
 }
 
+.minibox {
+    border-radius: 10px;
+}
+
 .carousel-caption a{
     text-transform: uppercase;
-    background: #6c757d;
+    background: #949090;
     padding: 10px 30px;
     display: inline-block;
     color: #fafafa;
     margin-top: 15px;
+    border-radius: 10px;
 }
 
-
+p {
+    letter-spacing: 4px;
+}
 /* nav-bar styles */
 
 .navbar-light .navbar-brand{
@@ -77,9 +86,9 @@ body {
 
 /* navbar for mobiles */
 
-@media  only screen and (max-width: 768px) {
+@media  only screen and (max-width: 987px) {
     .navbar-nav.ml-auto {
-        background: rgba(0 , 0, 0, 0.3);
+        background: rgba(49, 48, 48, 0.7);
     }
 .navbar-toggler{
     background:#fff;
@@ -100,6 +109,7 @@ body {
 
 section{
     background-color: #dae0e5;
+     margin-top: 15px;
 }
 
 div#map {min-height: 480px;}
