@@ -197,11 +197,40 @@ button[type="submit"] {
     background-color: #E8767B;
 }
 
-/*--- foote style for the sign-up form --*/
+/*--- footerstyle for the sign-up form --*/
 
-footer {
-    padding-top: 2rem;
+footer{
+    background-color: black;
 }
+.social-networks {
+    text-align: center;
+}
+
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 220%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
+    padding-top: 3rem;
+}
+
+.footer-head {
+    color:#fafafa;
+    text-align: center;
+    padding-top: 10rem;
+}
+
+
+@media (max-width:800px) {
+    span {
+    display: none}
+}
+
+
 /*--- media gallery columns --*/ 
 
 
