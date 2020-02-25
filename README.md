@@ -1,6 +1,7 @@
 # Travelarivo
+
 Second project for the Code Institure. 
-It is traveller's blog comprises of with two APIs. 1) Google Maps API and EmailJS API. Try loading it using by clicking [here ](githublink)
+It is traveller's blog comprises of with two APIs. 1) Google Maps API and EmailJS API. Try loading it using by clicking [here](https://podvistorcheto.github.io/Milestone-Project-2.0/)
 Introduces a three-stage slider which makes the interface more dynamic with appealing images related to the travelling topic. Each slide represents different level of interaction.  
 
 # Usage or UX
@@ -39,9 +40,7 @@ The next level of interaction comes with the inclusion of the Google Maps API th
 
 ###### screenshots
 
-<img src="images/desktop.PNG">
-<img src="images/md.PNG">
-<img src="images/sd.PNG">
+<img src="images/desktop.PNG" width=350> <img src="images/md.PNG" width=75> <img src="images/sd.PNG" width=50>
 
 ### Test 1 Version differences 
 
@@ -72,23 +71,22 @@ Three different versions the traveller;s blog are incldued using media queries.
 
 # Deployment
 
+The website is pushed online and uploaded from Github. The deployment comes directly from the master branch. 
+New features or updates to the deployed version can be made using the command `git commit -m "update"` which will commit the changes over the uploaded version in the master branch. To make these changes live the command is git push.
 
-Okay, so since this is your interactive project, you would just want to discuss the steps taken to deploy to github pages (e.g. there won't be any configuration files). 
-It's also is stating that you should include information about how another developer would go about cloning your repository and running it locally. 
-"is this like "how another developer would go about cloning your repository and running it locally. " like they can open it directtly from github to their gitpod or other editor and run it there
-Haley profile"
-Yes, so you'd want to outline the steps on how they would go about doing that. 
+The deployed version can be cloned and run in local environment by typing the command `git clone https://github.com/podvistorcheto/Milestone-Project-2.0.git`. in the editor's terminal. 
+If the user wants to remove the connection with this repository can paste in the command `git remote rm origin` in the terminal.
+
 
 # Content and Media
 
-Pictures on the slides landing pages are take and free to use from [Pexels](https://www.pexels.com/).
-
-The content from the gallery comes from my personal archive.
+Pictures on the slides landing pages are take and free to use from [Pexels](https://www.pexels.com/). 
+The rest of content from the gallery comes from my personal archive and all texts are written entirely by me.
 
 
 # Acknowledgements
 
-Inspiration for the slide deck design layout is takan from [here](https://www.youtube.com/watch?v=sbf3uv0reTc). 
+Thanks to the tutors of the Code Institute for helping to overcome the difficulties about rendering the Google Map API  
 
 The improvement for the interval comes a small piece of code taken from [here](https://getbootstrap.com/docs/4.0/components/carousel/) in Bootstrap.
 

@@ -61,9 +61,13 @@ p {
  letter-spacing: 2px; 
 }
 
+/*active color on the navbar */
+
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active > .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #fafafa;
 }
+
+/* hover color on the navbar */
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #dee2e6;
@@ -89,7 +93,7 @@ p {
 
 @media  only screen and (max-width: 987px) {
     .navbar-nav.ml-auto {
-        background: rgba(49, 48, 48, 0.7);
+        background: rgba(49, 48, 48, 0.5);
     }
 .navbar-toggler{
     background:#fff;
