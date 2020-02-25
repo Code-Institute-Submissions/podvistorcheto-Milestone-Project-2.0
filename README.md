@@ -39,7 +39,7 @@ The next level of interaction comes with the inclusion of the Google Maps API th
 
 ###### screenshots
 
-<img src="images/desktop.PNG">
+<img src="images/desktop.PNG" width=150>
 <img src="images/md.PNG">
 <img src="images/sd.PNG">
 
