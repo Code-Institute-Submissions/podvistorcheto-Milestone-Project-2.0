@@ -72,6 +72,7 @@ Three different versions the traveller;s blog are incldued using media queries.
 
 # Deployment
 
+
 Okay, so since this is your interactive project, you would just want to discuss the steps taken to deploy to github pages (e.g. there won't be any configuration files). 
 It's also is stating that you should include information about how another developer would go about cloning your repository and running it locally. 
 "is this like "how another developer would go about cloning your repository and running it locally. " like they can open it directtly from github to their gitpod or other editor and run it there

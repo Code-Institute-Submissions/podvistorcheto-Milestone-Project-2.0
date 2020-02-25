@@ -1,3 +1,4 @@
+// this form sends an email in the correct value are put in the keys
 function sendMail(contactForm) {
     console.log("Tyring to do an email")
         emailjs.send("gmail", "test", {
